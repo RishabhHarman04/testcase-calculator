@@ -11,6 +11,5 @@ class TestCalculator(unittest.TestCase):
         y=20
         result = calculator.sub(x,y)
         self.assertEqual(result, x-y)
-if __name__=="__main__"
-    if __name__ == '__main__':
+if __name__ == '__main__':
         unittest.main()
